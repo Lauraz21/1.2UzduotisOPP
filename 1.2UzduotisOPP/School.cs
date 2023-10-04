@@ -10,12 +10,14 @@ namespace _1._2UzduotisOPP
     {
         public string Name { get; set; }
         public string City { get; set; }
+        public int Pupil { get; set; }
     
 
         public School() 
         {
             Name = "CodeAcademy";
             City = "Vilnius";
+            Pupil = 100;
         }
     }
 }

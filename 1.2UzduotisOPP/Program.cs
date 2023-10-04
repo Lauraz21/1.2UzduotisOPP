@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             School school = new School();
-            Console.WriteLine($"Pavadinimas: {school.Name} \nMiestas: {school.City}");
+            Console.WriteLine($"Pavadinimas: {school.Name} \nMiestas: {school.City} \nMokiniu skaicius: {school.Pupil}");
         }
     }
 }
